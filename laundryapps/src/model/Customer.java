@@ -1,8 +1,7 @@
 package model;
 
-public class Costumer {
-	
-	String id, nama, alamat, nomorHp;
+public class Customer {
+	String id, nama, alamat, nomorhp;
 
 	public String getId() {
 		return id;
@@ -28,16 +27,13 @@ public class Costumer {
 		this.alamat = alamat;
 	}
 
-	public String getNomorHp() {
-		return nomorHp;
+	public String getNomorhp() {
+		return nomorhp;
 	}
 
-	public void setNomorHp(String nomorHp) {
-		this.nomorHp = nomorHp;
+	public void setNomorhp(String nomorhp) {
+		this.nomorhp = nomorhp;
 	}
-
-	public Costumer ( String id, String nama, String alamat, String nomorHp )	{
-		Costumer costumer = new Costumer("001", "dede", "kapalo koto", "082222");
-
-	}
+	
+	
 }
