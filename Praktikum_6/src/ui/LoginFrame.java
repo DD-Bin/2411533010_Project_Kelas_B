@@ -85,9 +85,7 @@ public class LoginFrame extends JFrame {
 		btnLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String userValue = txtUsername.getText();
-				String passValue = txtPassword.getText();
-
-				// Create user object
+				String passValue = txtPassword.getText();	
 				User user = new User(userValue, passValue);
 
 				try {
@@ -95,8 +93,8 @@ public class LoginFrame extends JFrame {
 					LoginService loginService = new LoginService();
 					if (loginService.authenticate(user)) {
 					    JOptionPane.showMessageDialog(null, "Login berhasil!"); // 
-					    new LoginFrame().setVisible(true);
-					    dispose(); 
+					    new CustomerFrame().setVisible(true);
+					    dispose();
 					} else {
 					    JOptionPane.showMessageDialog(null, "Login Gagal: Invalid username atau password!");
 					}

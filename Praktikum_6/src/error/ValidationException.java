@@ -5,4 +5,4 @@ public class ValidationException extends Throwable {
 		super(message);
 	}
 
-}
+}	

@@ -10,7 +10,7 @@
 				Class.forName("com.mysql.cj.jdbc.Driver");
 				Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/laundry_apps", "root", "");
 				
-		//		System.out.println("ciee connect");
+				System.out.println("ciee contgtgtgnect");
 				
 				return conn;
 			} catch(Exception e) {

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: 2411533010_Project_Kelas_B
+Bundle-SymbolicName: 2411533010_Project_Kelas_B
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-23
+Automatic-Module-Name: 2411533010.Project.Kelas.B
